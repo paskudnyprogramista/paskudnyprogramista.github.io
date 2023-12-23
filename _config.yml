@@ -1,0 +1,26 @@
+title: I write about software development. Sometimes. # name of the site
+author: paskudnyprogramista # name of site's author
+email:  # email of site's author
+url: https://paskudnyprogramista.github.io # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  I write about software development. Sometimes.
+
+permalink: /:slug.html
+
+favicon: "" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%d-%m-%Y" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-seo-tag

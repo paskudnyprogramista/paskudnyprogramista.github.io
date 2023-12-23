@@ -1,0 +1,17 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: posts
+    post_list:
+      limit: 5
+      show_more: false
+      show_more_text: More...
+      show_more_url: archive.html
+
+  - title: social
+    entries:
+      - title: GitHub
+        url: https://github.com/paskudnyprogramista
+      - title: LinkedIn
+        url: https://www.linkedin.com/in/paskudnyprogramista
