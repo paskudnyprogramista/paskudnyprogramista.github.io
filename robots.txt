@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://paskudnyprogramista.github.io/sitemap.xml
